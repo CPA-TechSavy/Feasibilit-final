@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "User": {
+      "fields": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "AccessRequest": {
+      "fields": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "status": { "type": "string" },
+        "requestedAt": { "type": "string" },
+        "approvedAt": { "type": "string" },
+        "approvalToken": { "type": "string" }
+      }
+    },
+    "Project": {
+      "fields": {
+        "title": { "type": "string" },
+        "updatedAt": { "type": "string" },
+        "data": { "type": "string" }
+      }
+    }
+  }
+}
